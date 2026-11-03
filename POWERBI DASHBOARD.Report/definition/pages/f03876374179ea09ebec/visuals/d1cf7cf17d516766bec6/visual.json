@@ -1,0 +1,136 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "d1cf7cf17d516766bec6",
+  "position": {
+    "x": 572.60273972602738,
+    "y": 221.91780821917808,
+    "z": 5000,
+    "height": 369.86301369863014,
+    "width": 546.57534246575347,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "treemap",
+    "query": {
+      "queryState": {
+        "Group": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Data Professional Survey (4)"
+                    }
+                  },
+                  "Property": "Q11 - Which Country do you live in?.1"
+                }
+              },
+              "queryRef": "Data Professional Survey (4).Q11 - Which Country do you live in?.1",
+              "nativeQueryRef": "COUNTRY OF SURVEY TAKERS",
+              "active": true,
+              "displayName": "COUNTRY OF SURVEY TAKERS"
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Data Professional Survey (4)"
+                        }
+                      },
+                      "Property": "Q11 - Which Country do you live in?.1"
+                    }
+                  },
+                  "Function": 2
+                }
+              },
+              "queryRef": "CountNonNull(Data Professional Survey (4).Q11 - Which Country do you live in?.1)",
+              "nativeQueryRef": ".",
+              "displayName": "."
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'COUNTRY OF SURVEY TAKERS'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "6786c824d2a410752ec9",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Data Professional Survey (4)"
+                  }
+                },
+                "Property": "Q11 - Which Country do you live in?.1"
+              }
+            },
+            "Function": 2
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "764ab7d0d603dad9087d",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Data Professional Survey (4)"
+              }
+            },
+            "Property": "Q11 - Which Country do you live in?.1"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

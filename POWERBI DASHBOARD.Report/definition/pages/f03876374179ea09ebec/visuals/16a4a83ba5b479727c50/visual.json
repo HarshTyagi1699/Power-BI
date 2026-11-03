@@ -1,0 +1,67 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "16a4a83ba5b479727c50",
+  "position": {
+    "x": 447.94520547945206,
+    "y": 53.424657534246577,
+    "z": 2000,
+    "height": 61,
+    "width": 124,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Data Professional Survey (4)"
+                        }
+                      },
+                      "Property": "Q10 - Current Age"
+                    }
+                  },
+                  "Function": 1
+                }
+              },
+              "queryRef": "Sum(Data Professional Survey (4).Q10 - Current Age)",
+              "nativeQueryRef": "Average Age",
+              "displayName": "Average Age"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Data Professional Survey (4)"
+                      }
+                    },
+                    "Property": "Q10 - Current Age"
+                  }
+                },
+                "Function": 1
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

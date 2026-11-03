@@ -1,0 +1,157 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "a2f34166c733aac8e78b",
+  "position": {
+    "x": 572.60273972602738,
+    "y": 591.78082191780823,
+    "z": 8000,
+    "height": 283.56164383561645,
+    "width": 546.57534246575347,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "donutChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Data Professional Survey (4)"
+                    }
+                  },
+                  "Property": "Q9 - Male/Female?"
+                }
+              },
+              "queryRef": "Data Professional Survey (4).Q9 - Male/Female?",
+              "nativeQueryRef": "Q9 - Male/Female?",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Data Professional Survey (4)"
+                        }
+                      },
+                      "Property": "Q3 - Average Current Yearly Salary"
+                    }
+                  },
+                  "Function": 1
+                }
+              },
+              "queryRef": "Sum(Data Professional Survey (4).Q3 - Average Current Yearly Salary)",
+              "nativeQueryRef": "Average of Q3 - Average Current Yearly Salary"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Data Professional Survey (4)"
+                      }
+                    },
+                    "Property": "Q3 - Average Current Yearly Salary"
+                  }
+                },
+                "Function": 1
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'AVERAGE SALARY BY GENDER'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "90435c784901ae1c7710",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Data Professional Survey (4)"
+              }
+            },
+            "Property": "Q9 - Male/Female?"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "9decf4c1712651890597",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Data Professional Survey (4)"
+                  }
+                },
+                "Property": "Q3 - Average Current Yearly Salary"
+              }
+            },
+            "Function": 1
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

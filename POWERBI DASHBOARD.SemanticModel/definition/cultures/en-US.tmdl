@@ -1,0 +1,2317 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "data_professional_survey_4": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data professional survey (4)": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.unique_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Unique ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unique ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unique identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unique identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unique identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "unique credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.email": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Email"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "email": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "correspondence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "message": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.date_taken_america_New_York": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Date Taken (America/New_York)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date taken (america/New_York)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date taken": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date taken (america": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "date taken ( america New_York )": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "New_York)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "moment taken (america": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "period taken (america": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.time_taken_america_New_York": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Time Taken (America/New_York)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "time taken (america/New_York)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "time taken": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "time taken (america": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "time taken ( america New_York )": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "New_York)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "duration taken (america": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "interval taken (america": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "moment taken (america": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "period taken (america": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "timetable taken (america": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.time_spent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Time Spent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "time spent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "duration spent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "interval spent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "moment spent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period spent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "timetable spent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q1__which_title_best_fit_your_current_role_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q1 - Which Title Best Fits your Current Role?.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q1 - which title best fit your current role?.1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q1 which title best fit your current role?.1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "JOB TITLE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          ".": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q2__did_you_switch_careers_into_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q2 - Did you switch careers into Data?"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q2 - did you switch careers into data?": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q2 - did you switch career into data?": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Q2 did you switch careers into data?": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Q2 did you switch career into data?": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q3__average_current_yearly_salary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q3 - Average Current Yearly Salary"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q3 - average current yearly salary": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q3 average current yearly salary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "salary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "yearly salary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "current yearly salary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average current yearly salary": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "q3 average latest yearly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "q3 average contemporary yearly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "q3 average present yearly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "average latest yearly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "average contemporary yearly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "average present yearly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "latest yearly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "contemporary yearly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "present yearly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "q3 average current yearly income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.52
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q4__what_industry_do_you_work_in_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q4 - What Industry do you work in?.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q4 - what industry do you work in?.1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q4 what industry do you work in?.1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q5__favorite_programming_language_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q5 - Favorite Programming Language.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q5 - favorite programming language.1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q5 favorite programming language.1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "FAV PROGRAMMING LANGUAGE": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_salary": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q6 - How Happy are you in your Current Position with the following? (Salary)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q6 - how happy are you in your current position with the following? (salary)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following?": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Q6 how happy are you in your current position with the following? (salary)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_work_life_balance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q6 - how happy are you in your current position with the following? (work/life balance)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following?": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following? (work": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following ? ( work life balance )": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "life balance)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Q6 how happy are you in your current position with the following? (work": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Q6 how happy are you in your current position with the following ? ( work life balance )": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_coworkers": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q6 - How Happy are you in your Current Position with the following? (Coworkers)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q6 - how happy are you in your current position with the following? (coworkers)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following? (coworker)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following?": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Q6 how happy are you in your current position with the following? (coworkers)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Q6 how happy are you in your current position with the following? (coworker)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_management": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q6 - How Happy are you in your Current Position with the following? (Management)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q6 - how happy are you in your current position with the following? (management)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following?": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Q6 how happy are you in your current position with the following? (management)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_upward_mobility": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q6 - how happy are you in your current position with the following? (upward mobility)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following?": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Q6 how happy are you in your current position with the following? (upward mobility)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_learning_new_things": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q6 - How Happy are you in your Current Position with the following? (Learning New Things)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q6 - how happy are you in your current position with the following? (learning new things)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following? (learning new thing)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Q6 - how happy are you in your current position with the following?": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Q6 how happy are you in your current position with the following? (learning new things)": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Q6 how happy are you in your current position with the following? (learning new thing)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q7__how_difficult_was_it_for_you_to_break_into_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q7 - How difficult was it for you to break into Data?"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q7 - how difficult was it for you to break into data?": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q7 how difficult was it for you to break into data?": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q8__if_you_were_to_look_for_a_new_job_today_what_would_be_the_most_important_t": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q8 - If you were to look for a new job today, what would be the most important t"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q8 - if you were to look for a new job today, what would be the most important t": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q8 if you were to look for a new job today, what would be the most important t": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q9__male_female": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q9 - Male/Female?"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q9 - male/female?": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q9 - male": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Q9 - male female ?": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "female?": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Q9 male": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "male": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Q9 male female ?": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "q9 - bloke": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "q9 - boy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "q9 - fella": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "q9 - gentleman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "masculine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "macho": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "q9 bloke": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "q9 boy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "q9 fella": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "q9 gentleman": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q10__current_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q10 - Current Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q10 - current age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q10 current age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "current age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "q10 - latest age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "q10 - contemporary age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "q10 - present age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "q10 latest age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "q10 contemporary age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "q10 present age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "contemporary age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "present age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "q10 - current oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q11__which_country_do_you_live_in_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q11 - Which Country do you live in?.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q11 - which country do you live in?.1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q11 which country do you live in?.1": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "COUNTRY OF SURVEY TAKERS": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q12__highest_level_of_education": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q12 - Highest Level of Education"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q12 - highest level of education": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q12 highest level of education": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "q12 highest quantity of education": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "q12 highest threshold of education": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "q12 highest amount of education": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "q12 highest grade of education": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "q12 highest point of education": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "q12 highest rank of education": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        },
+			        {
+			          "q12 highest tier of education": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.757
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.Q13__ethnicity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Q13 - Ethnicity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Q13 - ethnicity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Q13 ethnicity": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "ethnicity": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "q13 - civilization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "q13 - society": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "q13 - origin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "q13 civilization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "q13 society": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "q13 origin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "q13 - background": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "q13 - culture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "civilization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "society": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4.count_of_Q10__current_age_average_per_Q10__current_age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Data Professional Survey (4)",
+			          "ConceptualProperty": "Count of Q10 - Current Age average per Q10 - Current Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "count of Q10 - current age average per Q10 - current age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "count of Q10 current age average per Q10 current age": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "data_professional_survey_4_has_Q13__ethnicity": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q13__ethnicity": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q13__ethnicity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q13__ethnicity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q13__ethnicities"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q12__highest_level_of_education": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q12__highest_level_of_education": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q12__highest_level_of_education"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q12__highest_level_of_education"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q12__highest_level_of_education"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q11__which_country_do_you_live_in_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q11__which_country_do_you_live_in_1": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q11__which_country_do_you_live_in_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q11__which_country_do_you_live_in_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q11__which_country_do_you_live_in_1"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q10__current_age": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q10__current_age": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q10__current_age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q10__current_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q10__current_ages"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "data_professional_survey_4.Q10__current_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Q10__current_age_indicates_how_old_data_professional_survey_4_are"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q9__male_female": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q9__male_female": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q9__male_female"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q9__male_female"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q9__male_female"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q8__if_you_were_to_look_for_a_new_job_today_what_would_be_the_most_important_t": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q8__if_you_were_to_look_for_a_new_job_today_what_would_be_the_most_important_t": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q8__if_you_were_to_look_for_a_new_job_today_what_would_be_the_most_important_t"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q8__if_you_were_to_look_for_a_new_job_today_what_would_be_the_most_important_t"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q8__if_you_were_to_look_for_a_new_job_today_what_would_be_the_most_important_t"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q7__how_difficult_was_it_for_you_to_break_into_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q7__how_difficult_was_it_for_you_to_break_into_data": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q7__how_difficult_was_it_for_you_to_break_into_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q7__how_difficult_was_it_for_you_to_break_into_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q7__how_difficult_was_it_for_you_to_break_into_data"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q6__how_happy_are_you_in_your_current_position_with_the_following_learning_new_things": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_learning_new_things": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_learning_new_things"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_learning_new_things"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q6__how_happy_are_you_in_your_current_position_with_the_following_learning_new_things"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q6__how_happy_are_you_in_your_current_position_with_the_following_upward_mobility": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_upward_mobility": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_upward_mobility"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_upward_mobility"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q6__how_happy_are_you_in_your_current_position_with_the_following_upward_mobility"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q6__how_happy_are_you_in_your_current_position_with_the_following_management": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_management": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_management"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_management"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q6__how_happy_are_you_in_your_current_position_with_the_following_management"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q6__how_happy_are_you_in_your_current_position_with_the_following_coworkers": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_coworkers": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_coworkers"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_coworkers"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q6__how_happy_are_you_in_your_current_position_with_the_following_coworkers"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q6__how_happy_are_you_in_your_current_position_with_the_following_work_life_balance": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_work_life_balance": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_work_life_balance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_work_life_balance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q6__how_happy_are_you_in_your_current_position_with_the_following_work_life_balance"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q6__how_happy_are_you_in_your_current_position_with_the_following_salary": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_salary": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_salary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q6__how_happy_are_you_in_your_current_position_with_the_following_salary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q6__how_happy_are_you_in_your_current_position_with_the_following_salary"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q5__favorite_programming_language_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q5__favorite_programming_language_1": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q5__favorite_programming_language_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q5__favorite_programming_language_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q5__favorite_programming_language_1"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q4__what_industry_do_you_work_in_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q4__what_industry_do_you_work_in_1": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q4__what_industry_do_you_work_in_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q4__what_industry_do_you_work_in_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q4__what_industry_do_you_work_in_1"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q3__average_current_yearly_salary": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q3__average_current_yearly_salary": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q3__average_current_yearly_salary"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q3__average_current_yearly_salary"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q3__average_current_yearly_salaries"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q2__did_you_switch_careers_into_data": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q2__did_you_switch_careers_into_data": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q2__did_you_switch_careers_into_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q2__did_you_switch_careers_into_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q2__did_you_switch_careers_into_data"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_Q1__which_title_best_fit_your_current_role_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q1__which_title_best_fit_your_current_role_1": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q1__which_title_best_fit_your_current_role_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q1__which_title_best_fit_your_current_role_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_Q1__which_title_best_fit_your_current_role_1"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_time_spent": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.time_spent": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.time_spent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.time_spent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_time_spent"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_time_taken_america_New_York": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.time_taken_america_New_York": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.time_taken_america_New_York"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.time_taken_america_New_York"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_time_taken_america_New_York"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_date_taken_america_New_York": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.date_taken_america_New_York": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.date_taken_america_New_York"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.date_taken_america_New_York"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_date_taken_america_New_York"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_email": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.email": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.email"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.email"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_emails"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_unique_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.unique_ID": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.unique_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.unique_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_unique_ID"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_in_Q11__which_country_do_you_live_in_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.Q11__which_country_do_you_live_in_1": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.Q11__which_country_do_you_live_in_1"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "data_professional_survey_4.Q11__which_country_do_you_live_in_1"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "data_professional_survey_4.Q11__which_country_do_you_live_in_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_are_in_Q11__which_country_do_you_live_in_1"
+			        }
+			      ]
+			    },
+			    "data_professional_survey_4_has_count_of_Q10__current_age_average_per_Q10__current_age": {
+			      "Binding": {
+			        "ConceptualEntity": "Data Professional Survey (4)"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "data_professional_survey_4": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4"
+			          }
+			        },
+			        "data_professional_survey_4.count_of_Q10__current_age_average_per_Q10__current_age": {
+			          "Target": {
+			            "Entity": "data_professional_survey_4.count_of_Q10__current_age_average_per_Q10__current_age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "data_professional_survey_4"
+			            },
+			            "Object": {
+			              "Role": "data_professional_survey_4.count_of_Q10__current_age_average_per_Q10__current_age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_professional_survey_4_have_count_of_Q10__current_age_average_per_Q10__current_age"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

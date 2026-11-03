@@ -1,0 +1,211 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "3061ebdc702a292c9889",
+  "position": {
+    "x": 836.986301369863,
+    "y": 54.794520547945204,
+    "z": 7000,
+    "height": 167.12328767123287,
+    "width": 282.1917808219178,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "gauge",
+    "query": {
+      "queryState": {
+        "MaxValue": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Data Professional Survey (4)"
+                        }
+                      },
+                      "Property": "Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)"
+                    }
+                  },
+                  "Function": 4
+                }
+              },
+              "queryRef": "Max(Data Professional Survey (4).Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance))",
+              "nativeQueryRef": "MAX",
+              "displayName": "MAX"
+            }
+          ]
+        },
+        "MinValue": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Data Professional Survey (4)"
+                        }
+                      },
+                      "Property": "Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(Data Professional Survey (4).Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance))",
+              "nativeQueryRef": "MIN",
+              "displayName": "MIN"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Data Professional Survey (4)"
+                        }
+                      },
+                      "Property": "Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)"
+                    }
+                  },
+                  "Function": 1
+                }
+              },
+              "queryRef": "Sum(Data Professional Survey (4).Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance))",
+              "nativeQueryRef": "HAPPY WLB",
+              "displayName": "HAPPY WLB"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "Data Professional Survey (4)"
+                      }
+                    },
+                    "Property": "Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)"
+                  }
+                },
+                "Function": 1
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'HAPPINESS INDEX BY WLB'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "8b7b79f7c98beb596535",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Data Professional Survey (4)"
+                  }
+                },
+                "Property": "Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)"
+              }
+            },
+            "Function": 3
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "7c3895639748e915da10",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Data Professional Survey (4)"
+                  }
+                },
+                "Property": "Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)"
+              }
+            },
+            "Function": 1
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "679ed5ae092e8b5c05bc",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Data Professional Survey (4)"
+                  }
+                },
+                "Property": "Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)"
+              }
+            },
+            "Function": 4
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

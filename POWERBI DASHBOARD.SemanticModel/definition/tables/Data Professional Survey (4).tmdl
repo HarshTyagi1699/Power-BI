@@ -1,0 +1,258 @@
+table 'Data Professional Survey (4)'
+	lineageTag: 3c1e518c-6f6d-4cef-b4c4-694844912c5c
+
+	measure 'Count of Q10 - Current Age average per Q10 - Current Age' =
+			
+			AVERAGEX(
+				KEEPFILTERS(VALUES('Data Professional Survey (4)'[Q10 - Current Age])),
+				CALCULATE(COUNTA('Data Professional Survey (4)'[Q10 - Current Age]))
+			)
+		lineageTag: 383bd8c6-d6d0-45db-8e00-0dd4aac16940
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "AveragePerCategory"
+				}
+
+		changedProperty = FormatString
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Unique ID'
+		dataType: string
+		lineageTag: bfdb7121-6821-493e-96f7-45f9bc627d3b
+		summarizeBy: none
+		sourceColumn: Unique ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Email
+		dataType: string
+		lineageTag: 4e0d1196-a543-4e04-b7c2-6f529984f31a
+		summarizeBy: none
+		sourceColumn: Email
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date Taken (America/New_York)'
+		dataType: string
+		lineageTag: 37d9930a-1fa2-424a-a500-ed9197cc90bc
+		summarizeBy: none
+		sourceColumn: Date Taken (America/New_York)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Time Taken (America/New_York)'
+		dataType: string
+		lineageTag: f57b4fce-a3dd-4625-8912-4fa03659c556
+		summarizeBy: none
+		sourceColumn: Time Taken (America/New_York)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Time Spent'
+		dataType: string
+		lineageTag: d6b47f19-eeb4-44f4-bb98-cf4264d18581
+		summarizeBy: none
+		sourceColumn: Time Spent
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q1 - Which Title Best Fits your Current Role?.1'
+		dataType: string
+		lineageTag: 0562d264-2c86-4996-839b-6d0614bf46ad
+		summarizeBy: none
+		sourceColumn: Q1 - Which Title Best Fits your Current Role?.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q2 - Did you switch careers into Data?'
+		dataType: string
+		lineageTag: cf0275a3-a9ed-4513-ab73-e1cce83cdafa
+		summarizeBy: none
+		sourceColumn: Q2 - Did you switch careers into Data?
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q3 - Average Current Yearly Salary'
+		dataType: double
+		lineageTag: cbaac1da-aa49-41e5-8b2b-fc656c179e54
+		summarizeBy: sum
+		sourceColumn: Q3 - Average Current Yearly Salary
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Q4 - What Industry do you work in?.1'
+		dataType: string
+		lineageTag: e7359a67-da63-4f34-833f-8073de1dd71f
+		summarizeBy: none
+		sourceColumn: Q4 - What Industry do you work in?.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q5 - Favorite Programming Language.1'
+		dataType: string
+		lineageTag: f3674d0c-5201-4a4f-a662-48b698c419c7
+		summarizeBy: none
+		sourceColumn: Q5 - Favorite Programming Language.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q6 - How Happy are you in your Current Position with the following? (Salary)'
+		dataType: int64
+		formatString: 0
+		lineageTag: a9fcd58e-f9a6-4cac-87b7-056d057206e0
+		summarizeBy: sum
+		sourceColumn: Q6 - How Happy are you in your Current Position with the following? (Salary)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)'
+		dataType: int64
+		formatString: 0
+		lineageTag: aa5f4cc7-d637-436c-b91b-d5d51cef55b1
+		summarizeBy: sum
+		sourceColumn: Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q6 - How Happy are you in your Current Position with the following? (Coworkers)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4a12b14d-1e89-4246-9df1-48b499882d4a
+		summarizeBy: sum
+		sourceColumn: Q6 - How Happy are you in your Current Position with the following? (Coworkers)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q6 - How Happy are you in your Current Position with the following? (Management)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 351ae7d1-45f7-4b92-9271-7e2c0f3b69c9
+		summarizeBy: sum
+		sourceColumn: Q6 - How Happy are you in your Current Position with the following? (Management)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 68f4f45c-0253-4474-a752-1cecfc0b14f7
+		summarizeBy: sum
+		sourceColumn: Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q6 - How Happy are you in your Current Position with the following? (Learning New Things)'
+		dataType: int64
+		formatString: 0
+		lineageTag: 3d4015e0-a79b-41af-a1dc-7123ccce98c8
+		summarizeBy: sum
+		sourceColumn: Q6 - How Happy are you in your Current Position with the following? (Learning New Things)
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q7 - How difficult was it for you to break into Data?'
+		dataType: string
+		lineageTag: 15b45f59-422f-4e18-bd39-c2ec50639824
+		summarizeBy: none
+		sourceColumn: Q7 - How difficult was it for you to break into Data?
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q8 - If you were to look for a new job today, what would be the most important t'
+		dataType: string
+		lineageTag: 32322042-c533-483e-b8c9-f025864ef608
+		summarizeBy: none
+		sourceColumn: Q8 - If you were to look for a new job today, what would be the most important t
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q9 - Male/Female?'
+		dataType: string
+		lineageTag: 68f8fc44-05b2-40f3-973e-d63bebcf6c9c
+		summarizeBy: none
+		sourceColumn: Q9 - Male/Female?
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q10 - Current Age'
+		dataType: int64
+		formatString: 0
+		lineageTag: 4d178165-6ed7-4287-8075-a4c0e72397a1
+		summarizeBy: sum
+		sourceColumn: Q10 - Current Age
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q11 - Which Country do you live in?.1'
+		dataType: string
+		lineageTag: 32d1c4ec-4dae-4414-91ad-398f6b3eba36
+		summarizeBy: none
+		sourceColumn: Q11 - Which Country do you live in?.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q12 - Highest Level of Education'
+		dataType: string
+		lineageTag: 2d8c45a6-92e9-4b25-8653-935b9c911191
+		summarizeBy: none
+		sourceColumn: Q12 - Highest Level of Education
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Q13 - Ethnicity'
+		dataType: string
+		lineageTag: c061c717-87c9-49f1-8db9-a694ecb29220
+		summarizeBy: none
+		sourceColumn: Q13 - Ethnicity
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Data Professional Survey (4)' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\tyagi\Desktop\Power BI\Power BI - Final Project.xlsx"), null, true),
+				    #"Data Professional Survey_Sheet" = Source{[Item="Data Professional Survey",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Data Professional Survey_Sheet", [PromoteAllScalars=true]),
+				    #"Removed Columns" = Table.RemoveColumns(#"Promoted Headers",{"Browser", "OS", "City", "Country", "Referrer"}),
+				    #"Split Column by Delimiter" = Table.SplitColumn(#"Removed Columns", "Q1 - Which Title Best Fits your Current Role?", Splitter.SplitTextByEachDelimiter({"("}, QuoteStyle.Csv, false), {"Q1 - Which Title Best Fits your Current Role?.1", "Q1 - Which Title Best Fits your Current Role?.2"}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Split Column by Delimiter",{{"Q1 - Which Title Best Fits your Current Role?.1", type text}, {"Q1 - Which Title Best Fits your Current Role?.2", type text}}),
+				    #"Removed Columns1" = Table.RemoveColumns(#"Changed Type",{"Q1 - Which Title Best Fits your Current Role?.2"}),
+				    #"Split Column by Delimiter1" = Table.SplitColumn(#"Removed Columns1", "Q4 - What Industry do you work in?", Splitter.SplitTextByEachDelimiter({"("}, QuoteStyle.Csv, false), {"Q4 - What Industry do you work in?.1", "Q4 - What Industry do you work in?.2"}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Split Column by Delimiter1",{{"Q4 - What Industry do you work in?.1", type text}, {"Q4 - What Industry do you work in?.2", type text}}),
+				    #"Removed Columns2" = Table.RemoveColumns(#"Changed Type1",{"Q4 - What Industry do you work in?.2"}),
+				    #"Split Column by Delimiter2" = Table.SplitColumn(#"Removed Columns2", "Q5 - Favorite Programming Language", Splitter.SplitTextByEachDelimiter({":"}, QuoteStyle.Csv, false), {"Q5 - Favorite Programming Language.1", "Q5 - Favorite Programming Language.2"}),
+				    #"Changed Type2" = Table.TransformColumnTypes(#"Split Column by Delimiter2",{{"Q5 - Favorite Programming Language.1", type text}, {"Q5 - Favorite Programming Language.2", type text}}),
+				    #"Removed Columns3" = Table.RemoveColumns(#"Changed Type2",{"Q5 - Favorite Programming Language.2"}),
+				    #"Split Column by Delimiter3" = Table.SplitColumn(#"Removed Columns3", "Q8 - If you were to look for a new job today, what would be the most important thing to you?", Splitter.SplitTextByEachDelimiter({"("}, QuoteStyle.Csv, false), {"Q8 - If you were to look for a new job today, what would be the most important t", "Q8 - If you were to look for a new job today, what would be the most important.1"}),
+				    #"Changed Type3" = Table.TransformColumnTypes(#"Split Column by Delimiter3",{{"Q8 - If you were to look for a new job today, what would be the most important t", type text}, {"Q8 - If you were to look for a new job today, what would be the most important.1", type text}}),
+				    #"Removed Columns4" = Table.RemoveColumns(#"Changed Type3",{"Q8 - If you were to look for a new job today, what would be the most important.1"}),
+				    #"Split Column by Delimiter4" = Table.SplitColumn(#"Removed Columns4", "Q11 - Which Country do you live in?", Splitter.SplitTextByEachDelimiter({"("}, QuoteStyle.Csv, false), {"Q11 - Which Country do you live in?.1", "Q11 - Which Country do you live in?.2"}),
+				    #"Changed Type4" = Table.TransformColumnTypes(#"Split Column by Delimiter4",{{"Q11 - Which Country do you live in?.1", type text}, {"Q11 - Which Country do you live in?.2", type text}}),
+				    #"Removed Columns5" = Table.RemoveColumns(#"Changed Type4",{"Q11 - Which Country do you live in?.2"}),
+				    #"Split Column by Character Transition" = Table.SplitColumn(#"Removed Columns5", "Q3 - Current Yearly Salary (in USD)", Splitter.SplitTextByCharacterTransition({"0".."9"}, (c) => not List.Contains({"0".."9"}, c)), {"Q3 - Current Yearly Salary (in USD).1", "Q3 - Current Yearly Salary (in USD).2", "Q3 - Current Yearly Salary (in USD).3"}),
+				    #"Removed Columns6" = Table.RemoveColumns(#"Split Column by Character Transition",{"Q3 - Current Yearly Salary (in USD).3"}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Removed Columns6","k ","",Replacer.ReplaceText,{"Q3 - Current Yearly Salary (in USD).2"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","k","",Replacer.ReplaceText,{"Q3 - Current Yearly Salary (in USD).2"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","-","",Replacer.ReplaceText,{"Q3 - Current Yearly Salary (in USD).2"}),
+				    #"Replaced Value3" = Table.ReplaceValue(#"Replaced Value2","+","225",Replacer.ReplaceText,{"Q3 - Current Yearly Salary (in USD).2"}),
+				    #"Changed Type5" = Table.TransformColumnTypes(#"Replaced Value3",{{"Q3 - Current Yearly Salary (in USD).1", Int64.Type}, {"Q3 - Current Yearly Salary (in USD).2", Int64.Type}}),
+				    #"Added Custom" = Table.AddColumn(#"Changed Type5", "Average Current Yearly Salary", each ([#"Q3 - Current Yearly Salary (in USD).1"] + [#"Q3 - Current Yearly Salary (in USD).2"]) / 2),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Added Custom",{"Unique ID", "Email", "Date Taken (America/New_York)", "Time Taken (America/New_York)", "Time Spent", "Q1 - Which Title Best Fits your Current Role?.1", "Q2 - Did you switch careers into Data?", "Q3 - Current Yearly Salary (in USD).1", "Q3 - Current Yearly Salary (in USD).2", "Average Current Yearly Salary", "Q4 - What Industry do you work in?.1", "Q5 - Favorite Programming Language.1", "Q6 - How Happy are you in your Current Position with the following? (Salary)", "Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)", "Q6 - How Happy are you in your Current Position with the following? (Coworkers)", "Q6 - How Happy are you in your Current Position with the following? (Management)", "Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)", "Q6 - How Happy are you in your Current Position with the following? (Learning New Things)", "Q7 - How difficult was it for you to break into Data?", "Q8 - If you were to look for a new job today, what would be the most important t", "Q9 - Male/Female?", "Q10 - Current Age", "Q11 - Which Country do you live in?.1", "Q12 - Highest Level of Education", "Q13 - Ethnicity"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Reordered Columns",{{"Average Current Yearly Salary", "Q3 - Average Current Yearly Salary"}}),
+				    #"Removed Columns7" = Table.RemoveColumns(#"Renamed Columns",{"Q3 - Current Yearly Salary (in USD).1", "Q3 - Current Yearly Salary (in USD).2"}),
+				    #"Changed Type6" = Table.TransformColumnTypes(#"Removed Columns7",{{"Q10 - Current Age", Int64.Type}, {"Q6 - How Happy are you in your Current Position with the following? (Salary)", Int64.Type}, {"Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)", Int64.Type}, {"Q6 - How Happy are you in your Current Position with the following? (Coworkers)", Int64.Type}, {"Q6 - How Happy are you in your Current Position with the following? (Management)", Int64.Type}, {"Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)", Int64.Type}, {"Q6 - How Happy are you in your Current Position with the following? (Learning New Things)", Int64.Type}})
+				in
+				    #"Changed Type6"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
