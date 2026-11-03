@@ -1,4 +1,4 @@
-📊 Data Professional Survey – Power BI Dashboard
+📊 Data Professional Survey – Power BI Dashboard 📊
 
 -----------------📌 Project Overview📌----------------------------------------------
 
@@ -15,16 +15,18 @@ The dashboard provides insights into the careers, salaries, job satisfaction, an
 - Examine the demographics of data professionals.
 
 ------------------📈 Dashboard Highlights 📈 ------------------------------------------
-The interactive dashboard includes:
-- **Total Survey Takers:** 630 respondents.
-- **Average Age:** 29.87 years.
-- **Average Salary by Job Title:** Comparison across different data roles.
-- **Happiness Index:** Satisfaction levels for salary and work-life balance.
-- **Country Distribution:** Geographical breakdown of respondents.
-- **Programming Language Preferences:** Distribution of favorite programming languages.
-- **Average Salary by Gender:** Gender-based salary comparison.
 
-## 🛠️ Tools & Technologies
+The interactive dashboard includes:
+- Total Survey Takers:** 630 respondents.
+- Average Age:** 29.87 years.
+- Average Salary by Job Title:** Comparison across different data roles.
+- Happiness Index:** Satisfaction levels for salary and work-life balance.
+- Country Distribution:** Geographical breakdown of respondents.
+- Programming Language Preferences:** Distribution of favorite programming languages.
+- Average Salary by Gender:** Gender-based salary comparison.
+
+--------------------🛠️ Tools & Technologies 🛠️----------------------------------------
+
 - Microsoft Power BI
 - Microsoft Excel
 - Data Visualization
